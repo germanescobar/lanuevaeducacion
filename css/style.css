@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.brand {
+  color: #444;
+  font-size: 21px;
+  padding: 20px 0;
+}
+
+.brand { font-weight: normal; }
+.brand span { font-weight: bold; }
+
+.hero {
+  position: relative;
+  background: #008CBA;
+  background-image: url('../img/project_papper_@2X-2.png');
+  color: white;
+  font-size: 21px;
+  line-height: 1.4;
+  padding: 200px 0 230px;
+}
+
+.about {
+  color: #444;
+  margin: 50px 0 0;
+}
+.about h3 { color: #444; font-size: 18px; font-weight: bold; }
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.about .note-open { margin-top: 30px; }
+
+.ken-robinson {
+  background: black;
+  font-size: 21px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 40px 0 20px;
+}
+.ken-robinson .intro { margin-bottom: 30px; }
+.ken-robinson blockquote { 
+  color: white;
+  line-height: 1.4;
+  border-left: 0;
+}
+
+.new-skills {
+  color: #444;
+  margin-top: 50px;
+}
+.new-skills .intro h3 { font-size: 28px; margin-bottom: 40px; }
+.new-skills h4 { color: #666; font-size: 18px; font-weight: bold; }
+
+.new-education {
+  color: #444;
+  margin-top: 50px; 
+}
+.new-education .intro h3 { font-size: 18px; font-weight: bold; }
+.new-education h2 { font-size: 24px; }
+.new-education h4 { color: #444; font-size: 18px; font-weight: bold; }
+
+.continuous-process { margin-top: 20px; }
+.continuous-process p { font-size: 21px; }
+
+@media only screen and (min-width: 40.063em) { /* medium screens */
+  .hero {
+    font-size: 38px;
+  }
+}
