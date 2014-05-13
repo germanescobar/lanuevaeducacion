@@ -17,10 +17,17 @@ body {
   background: #008CBA;
   background-image: url('../img/project_papper_@2X-2.png');
   color: white;
-  font-size: 21px;
   line-height: 1.4;
-  padding: 200px 0 230px;
 }
+.hero .upper-hero { 
+  font-size: 24px; 
+  font-weight: bold;
+  margin-top: 100px;
+}
+.hero .lower-hero {
+  font-size: 18px;
+  margin: 20px 0 100px;
+} 
 
 .about {
   color: #444;
@@ -51,8 +58,17 @@ body {
   color: #444;
   margin-top: 50px;
 }
-.new-skills .intro h3 { font-size: 28px; margin-bottom: 40px; }
-.new-skills h4 { color: #666; font-size: 18px; font-weight: bold; }
+.new-skills .intro h3 { 
+  font-size: 21px; 
+  margin-bottom: 40px; 
+}
+.new-skills h4 {
+  color: #666;
+  font-size: 18px; 
+  font-weight: bold; 
+}
+.tech p { font-size: 16px; margin-top: 20px; }
+.tech > div { margin-top: 30px;}
 
 .new-education {
   color: #444;
@@ -66,7 +82,14 @@ body {
 .continuous-process p { font-size: 21px; }
 
 @media only screen and (min-width: 40.063em) { /* medium screens */
-  .hero {
-    font-size: 38px;
+  .hero .upper-hero { 
+    font-size: 34px;
+    margin-top: 150px;
   }
+  .hero .lower-hero { 
+    font-size: 24px;
+    margin-bottom: 170px;
+  }
+
+  .new-skills .intro h3 { font-size: 28px; }
 }
