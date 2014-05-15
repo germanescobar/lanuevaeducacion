@@ -40,29 +40,29 @@ body {
 }
 .about .note-open { margin-top: 30px; }
 
-.ken-robinson {
+.video-resource {
   background: black;
   font-size: 21px;
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 40px 0 20px;
 }
-.ken-robinson .intro { margin-bottom: 30px; }
-.ken-robinson blockquote { 
+.video-resource .intro { margin-bottom: 30px; }
+.video-resource blockquote { 
   color: white;
   line-height: 1.4;
   border-left: 0;
 }
 
-.new-skills {
+.section {
   color: #444;
   margin-top: 50px;
 }
-.new-skills .intro h3 { 
+.section .intro h3 { 
   font-size: 21px; 
   margin-bottom: 40px; 
 }
-.new-skills h4 {
+.section h4 {
   color: #666;
   font-size: 18px; 
   font-weight: bold; 
@@ -91,5 +91,5 @@ body {
     margin-bottom: 170px;
   }
 
-  .new-skills .intro h3 { font-size: 28px; }
+  .section .intro h3 { font-size: 28px; }
 }
