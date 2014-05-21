@@ -38,7 +38,26 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
-.about .note-open { margin-top: 30px; }
+.about .note-open { margin-top: 30px; margin-bottom: 20px; }
+
+.contents { 
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+}
+.contents h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center; 
+  margin-bottom: 30px;
+}
+.contents ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+  text-align: center;
+}
 
 .video-resource {
   background: black;
@@ -73,6 +92,10 @@ body {
 .new-education {
   color: #444;
   margin-top: 50px; 
+}
+.new-education .intro { 
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .new-education .intro h3 { font-size: 18px; font-weight: bold; }
 .new-education h2 { font-size: 24px; }
